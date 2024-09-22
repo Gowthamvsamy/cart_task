@@ -4,13 +4,7 @@ function Nav({ cartCount, handleModalToggle }) {
     return (
         <nav className='border-b-2 shadow flex flex-wrap justify-around items-center p-6 text-2xl'>
             {/* Logo section */}
-            <div>
-                <img
-                    src="../../public/ct.png"
-                    alt="Cart Task"
-                    className='h-12'
-                />
-            </div>
+            <div className="font-semibold text-3xl">Cart Task</div>
 
             {/* Cart section */}
             <div className='flex justify-center hover:scale-105' onClick={handleModalToggle}>
