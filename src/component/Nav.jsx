@@ -6,8 +6,8 @@ function Nav({ cartCount, handleModalToggle }) {
             {/* Logo section */}
             <div>
                 <img
-                    src="../../public/ct-high-resolution-logo-transparent.png"
-                    alt="404"
+                    src="../../public/ct.png"
+                    alt="Cart Task"
                     className='h-12'
                 />
             </div>
